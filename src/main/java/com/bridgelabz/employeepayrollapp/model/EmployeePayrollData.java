@@ -38,4 +38,9 @@ public class EmployeePayrollData {
         this.salary = employeePayrollDTO.salary;
     }
 
+    public EmployeePayrollData(EmployeePayrollDTO employeePayrollDTO) {
+        this.employeeId = employeeId;
+        this.name = employeePayrollDTO.name;
+        this.salary = employeePayrollDTO.salary;
+    }
 }
