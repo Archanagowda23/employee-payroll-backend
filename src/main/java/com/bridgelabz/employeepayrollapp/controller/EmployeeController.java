@@ -15,7 +15,7 @@ import java.util.List;
  * Controller Class
  * URL - http://localhost:8081/employee
  */
-@RequestMapping("/employee")
+@RequestMapping("/employeepayroll")
 @RestController
 public class EmployeeController {
 
@@ -27,7 +27,7 @@ public class EmployeeController {
      * Method to get the Employee Details to the Given table as Entity.
      * @return Get the Data given by the user to the table.
      */
-    @RequestMapping(value = {"", "/", "/get"})
+    @RequestMapping(value = {"", "/", "/getInfo"})
     public ResponseEntity<ResponseDTO> getEmployeePayrollData() {
         List<EmployeePayrollData> empDataList = null;
         empDataList = employeePayrollService.getEmployeePayrollData();
@@ -68,9 +68,9 @@ public class EmployeeController {
      * @return : updated data and get Updated employee Payroll data successfully message in string type.
      */
     @PutMapping("/update/{empId}")
-    public ResponseEntity<ResponseDTO> updateEmployeePayrollData(@RequestBody EmployeePayrollDTO empPayrollDTO) {
+    public ResponseEntity<ResponseDTO> updateEmployeePayrollData(@PathVariable("empId") int empId, @RequestBody EmployeePayrollDTO empPayrollDTO) {
         EmployeePayrollData empData = null;
-        empData = employeePayrollService.updateEmployeePayrollData(empPayrollDTO);
+        empData = employeePayrollService.updateEmployeePayrollData(empId,empPayrollDTO);
         ResponseDTO responseDTO = new ResponseDTO("Updated employee Payroll data successfully", empData);
         return new ResponseEntity<>(responseDTO, HttpStatus.OK);
     }
@@ -83,6 +83,7 @@ public class EmployeeController {
 
     @DeleteMapping("/delete/{empId}")
     public ResponseEntity<ResponseDTO> deleteEmployeePayrollData(@PathVariable("empId") int empId) {
+        employeePayrollService.deleteEmployeePayrollData(empId);
         ResponseDTO responseDTO = new ResponseDTO("Deleted successfully", "Deleted id: " + empId);
         return new ResponseEntity<>(responseDTO, HttpStatus.OK);
     }
