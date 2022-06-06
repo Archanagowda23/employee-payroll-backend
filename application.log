@@ -16,3 +16,18 @@
 2022-06-06 00:30:31.939  WARN 8540 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 2022-06-06 00:30:33.183  INFO 8540 --- [main] c.b.e.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 8.988 seconds (JVM running for 10.16)
 2022-06-06 00:30:33.189  INFO 8540 --- [main] c.b.e.EmployeePayrollAppApplication      : Employee Payroll App Started in DEV Environment
+2022-06-06 12:09:32.989  INFO 11060 --- [main] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 17.0.2 on DESKTOP-4E0R7JF with PID 11060 (C:\Users\Nagu\eclipse-workspace\employepayroll-app\target\classes started by Nagu in C:\Users\Nagu\eclipse-workspace\employepayroll-app)
+2022-06-06 12:09:33.015 DEBUG 11060 --- [main] c.b.e.EmployeePayrollAppApplication      : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-06-06 12:09:33.017  INFO 11060 --- [main] c.b.e.EmployeePayrollAppApplication      : The following 1 profile is active: "dev"
+2022-06-06 12:10:14.268  INFO 11928 --- [main] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 17.0.2 on DESKTOP-4E0R7JF with PID 11928 (C:\Users\Nagu\eclipse-workspace\employepayroll-app\target\classes started by Nagu in C:\Users\Nagu\eclipse-workspace\employepayroll-app)
+2022-06-06 12:10:14.274 DEBUG 11928 --- [main] c.b.e.EmployeePayrollAppApplication      : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-06-06 12:10:14.275  INFO 11928 --- [main] c.b.e.EmployeePayrollAppApplication      : The following 1 profile is active: "dev"
+2022-06-06 12:10:39.274  WARN 11928 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-06 12:10:44.897  INFO 11928 --- [main] c.b.e.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 32.146 seconds (JVM running for 34.289)
+2022-06-06 12:10:44.903  INFO 11928 --- [main] c.b.e.EmployeePayrollAppApplication      : Employee Payroll App Started in DEV Environment
+2022-06-06 12:18:24.543  INFO 2276 --- [main] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 17.0.2 on DESKTOP-4E0R7JF with PID 2276 (C:\Users\Nagu\eclipse-workspace\employepayroll-app\target\classes started by Nagu in C:\Users\Nagu\eclipse-workspace\employepayroll-app)
+2022-06-06 12:18:24.550 DEBUG 2276 --- [main] c.b.e.EmployeePayrollAppApplication      : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-06-06 12:18:24.552  INFO 2276 --- [main] c.b.e.EmployeePayrollAppApplication      : The following 1 profile is active: "dev"
+2022-06-06 12:18:33.406  WARN 2276 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-06 12:18:35.027  INFO 2276 --- [main] c.b.e.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 11.67 seconds (JVM running for 12.857)
+2022-06-06 12:18:35.035  INFO 2276 --- [main] c.b.e.EmployeePayrollAppApplication      : Employee Payroll App Started in DEV Environment
